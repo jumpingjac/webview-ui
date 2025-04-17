@@ -8,4 +8,3 @@ root.render(
     <GrantSearch />
   </React.StrictMode>
 );
-s
