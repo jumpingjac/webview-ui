@@ -1,0 +1,23 @@
+{
+  "name": "grant-search",
+  "displayName": "Grant Search",
+  "description": "Search for grants available to FRC nonprofit teams",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "grant-search.start",
+        "title": "Grant Search"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "echo 'No build step needed for extension'"
+  },
+  "devDependencies": {}
+}
