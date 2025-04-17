@@ -1,23 +1,24 @@
 {
-  "name": "grant-search",
-  "displayName": "Grant Search",
-  "description": "Search for grants available to FRC nonprofit teams",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.75.0"
-  },
-  "categories": ["Other"],
-  "main": "./extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "grant-search.start",
-        "title": "Grant Search"
-      }
-    ]
+  "name": "webview-ui",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "build": "echo 'No build step needed for extension'"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {}
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
 }
